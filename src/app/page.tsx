@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ImplantTypes from "@/components/ImplantTypes";
-import PromotionalPackages from "@/components/PromotionalPackages";
 import TransformingSmiles from "@/components/TransformingSmiles";
 import CTABox from "@/components/CTABox";
 import GoogleReviews from "@/components/GoogleReviews";
@@ -105,7 +104,6 @@ export default function Home() {
         <HeroSection onBookAppointment={openPopup} />
       
         <ImplantTypes />
-        <PromotionalPackages onBookAppointment={openPopup} />
         <TransformingSmiles onBookAppointment={openPopup} />
         <CTABox onBookAppointment={openPopup} />
         <GoogleReviews />

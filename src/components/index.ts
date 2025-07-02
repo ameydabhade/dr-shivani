@@ -11,7 +11,6 @@ export { default as ImplantTypes } from './ImplantTypes';
 export { default as MetaPixel } from './MetaPixel';
 export { default as MobileMenu } from './MobileMenu';
 export { default as PopupForm } from './PopupForm';
-export { default as PromotionalPackages } from './PromotionalPackages';
 export { default as StickyCTA } from './StickyCTA';
 export { default as TransformingSmiles } from './TransformingSmiles';
 export { default as WhatsAppButton } from './WhatsAppButton'; 

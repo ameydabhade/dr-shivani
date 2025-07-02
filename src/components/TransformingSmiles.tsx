@@ -7,11 +7,22 @@ interface TransformingSmilesProps {
 export default function TransformingSmiles({ onBookAppointment }: TransformingSmilesProps) {
   const transformations = [
     {
-      beforeImage: "/images/transformations/1.mp4",
-      afterImage: "/images/transformations/2.mp4",
-      title: "Complete Smile Makeover",
-      description: "Comprehensive transformation by Dr. Shivani",
-      treatment: "Dental Implants + Smile Design"
+      beforeAfterImage: "/images/results/1.png",
+      title: "Dental Implant Transformation",
+      description: "Single tooth replacement with perfect aesthetics",
+      treatment: "Single Dental Implant + Zirconia Crown"
+    },
+    {
+      beforeAfterImage: "/images/results/2.png", 
+      title: "Multiple Implants Bridge",
+      description: "Multiple missing teeth restored with implant bridge",
+      treatment: "3 Dental Implants + Custom Bridge"
+    },
+    {
+      beforeAfterImage: "/images/results/3.png",
+      title: "Full Smile Rehabilitation", 
+      description: "Complete smile makeover with implants and crowns",
+      treatment: "All-on-4 Implants + Full Arch Restoration"
     }
   ];
 
@@ -23,110 +34,55 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
             ✨ Real Patient Results
           </span>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
-            Transforming Smiles with Dr. Shivani
+            Transforming Smiles
           </h2>
           <p className="text-gray-600 md:text-lg max-w-3xl mx-auto">
-            See the incredible transformations achieved at Meera Dental Clinic using our 
-            advanced technology and Dr. Shivani's expertise in implantology and smile design.
+            Real results from our satisfied patients. Witness the before and after magic 
+            of our painless dental implants at Meera Dental Clinic!
           </p>
         </div>
 
-        <div className="grid gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {transformations.map((transformation, index) => (
-            <div key={index} className="bg-white rounded-2xl p-6 md:p-8 shadow-lg">
-              <div className="md:flex md:items-center md:gap-8">
-                {/* Video/Image Section */}
-                <div className="md:flex-1 mb-6 md:mb-0">
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="relative">
-                      <h3 className="text-lg font-bold text-gray-900 mb-3 text-center">Before</h3>
-                      <div className="relative aspect-video bg-gray-100 rounded-lg overflow-hidden">
-                        <video 
-                          autoPlay 
-                          loop 
-                          muted 
-                          playsInline
-                          className="w-full h-full object-cover"
-                        >
-                          <source src={transformation.beforeImage} type="video/mp4" />
-                          Your browser does not support the video tag.
-                        </video>
-                      </div>
-                    </div>
-                    <div className="relative">
-                      <h3 className="text-lg font-bold text-gray-900 mb-3 text-center">After</h3>
-                      <div className="relative aspect-video bg-gray-100 rounded-lg overflow-hidden">
-                        <video 
-                          autoPlay 
-                          loop 
-                          muted 
-                          playsInline
-                          className="w-full h-full object-cover"
-                        >
-                          <source src={transformation.afterImage} type="video/mp4" />
-                          Your browser does not support the video tag.
-                        </video>
-                      </div>
-                    </div>
-                  </div>
+            <div key={index} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all">
+              {/* Before/After Image */}
+              <div className="mb-6">
+                <h3 className="text-lg font-bold text-gray-900 mb-3 text-center">Before & After</h3>
+                <div className="relative aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden">
+                  <Image 
+                    src={transformation.beforeAfterImage}
+                    alt={`${transformation.title} - Before and After Results`}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
                 </div>
+              </div>
 
-                {/* Content Section */}
-                <div className="md:w-1/3">
-                  <div className="text-center md:text-left">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
-                      {transformation.title}
-                    </h3>
-                    <p className="text-gray-600 mb-4">
-                      {transformation.description}
-                    </p>
-                    <div className="bg-primary-50 p-4 rounded-lg mb-6">
-                      <h4 className="font-bold text-primary-600 mb-2">Treatment Used:</h4>
-                      <p className="text-primary-800">{transformation.treatment}</p>
-                    </div>
-                    <button 
-                      onClick={onBookAppointment}
-                      className="bg-primary-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-primary-600 transition-all hover:scale-105 w-full md:w-auto"
-                    >
-                      Get Your Transformation
-                    </button>
-                  </div>
+              {/* Content Section */}
+              <div className="text-center">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  {transformation.title}
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  {transformation.description}
+                </p>
+                <div className="bg-primary-50 p-4 rounded-lg mb-6">
+                  <h4 className="font-bold text-primary-600 mb-2">Treatment Used:</h4>
+                  <p className="text-primary-800 text-sm">{transformation.treatment}</p>
                 </div>
+                <button 
+                  onClick={onBookAppointment}
+                  className="bg-primary-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-primary-600 transition-all hover:scale-105 w-full"
+                >
+                  Get Your Transformation
+                </button>
               </div>
             </div>
           ))}
         </div>
 
-        {/* Success Statistics */}
-        <div className="mt-12 bg-gradient-to-r from-primary-600 to-purple-600 rounded-2xl p-8 text-white">
-          <div className="text-center mb-8">
-            <h3 className="text-2xl md:text-3xl font-bold mb-2">
-              Proven Results with Advanced Technology
-            </h3>
-            <p className="text-primary-100">
-              Dr. Shivani's expertise combined with cutting-edge technology
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-4 gap-6 text-center">
-            <div>
-              <div className="text-3xl md:text-4xl font-bold mb-2">1000+</div>
-              <div className="text-primary-100">Successful Treatments</div>
-            </div>
-            <div>
-              <div className="text-3xl md:text-4xl font-bold mb-2">98%</div>
-              <div className="text-primary-100">Patient Satisfaction</div>
-            </div>
-            <div>
-              <div className="text-3xl md:text-4xl font-bold mb-2">10+</div>
-              <div className="text-primary-100">Years Experience</div>
-            </div>
-            <div>
-              <div className="text-3xl md:text-4xl font-bold mb-2">4.9★</div>
-              <div className="text-primary-100">Google Rating</div>
-            </div>
-          </div>
-        </div>
+ 
 
         {/* Call to Action */}
         <div className="text-center mt-8">
