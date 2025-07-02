@@ -5,58 +5,58 @@ interface PromotionalPackagesProps {
 export default function PromotionalPackages({ onBookAppointment }: PromotionalPackagesProps) {
   const packages = [
     {
-      title: "Complete Smile Makeover",
-      originalPrice: "₹55,000",
-      offerPrice: "₹40,000",
-      savings: "₹15,000",
-      features: [
-        "Digital smile design consultation",
-        "4-6 Zirconia/E-max crowns",
-        "3D intra-oral scanning",
-        "Professional teeth whitening",
-        "1-year warranty included"
-      ],
-      popular: true
-    },
-    {
-      title: "Premium Implant Package",
+      title: "Single Implant Package",
       originalPrice: "₹35,000",
       offerPrice: "₹28,000",
       savings: "₹7,000",
       features: [
-        "Single Hiossen/Nobel implant",
-        "CBCT 3D scan & planning",
+        "Swiss implant system (Hiossen/Nobel)",
+        "Free consultation + Digital scan",
+        "3D CBCT planning included",
         "Zirconia crown included",
-        "6-month healing follow-up",
-        "Lifetime implant warranty"
+        "Lifetime warranty on implant"
+      ],
+      popular: true
+    },
+    {
+      title: "Multiple Implants Package",
+      originalPrice: "₹90,000",
+      offerPrice: "₹75,000",
+      savings: "₹15,000",
+      features: [
+        "3 premium implants included",
+        "Digital implant planning",
+        "Computer-guided surgery",
+        "Custom implant bridge",
+        "6-month follow-up care"
       ],
       popular: false
     },
     {
-      title: "Family Wellness Plan",
-      originalPrice: "₹18,000",
-      offerPrice: "₹12,000",
-      savings: "₹6,000",
+      title: "All-on-4 Complete Package",
+      originalPrice: "₹2,50,000",
+      offerPrice: "₹2,00,000",
+      savings: "₹50,000",
       features: [
-        "4 family members covered",
-        "Complete dental checkup",
-        "Scaling & polishing each",
-        "Digital X-rays included",
-        "Priority appointment booking"
+        "4 implants per arch",
+        "Fixed denture on same day",
+        "Swiss implant system",
+        "Digital smile design",
+        "1-year comprehensive warranty"
       ],
       popular: false
     },
     {
-      title: "Laser Gum Therapy",
-      originalPrice: "₹22,000",
-      offerPrice: "₹16,000",
-      savings: "₹6,000",
+      title: "Implant-Supported Dentures",
+      originalPrice: "₹1,20,000",
+      offerPrice: "₹95,000",
+      savings: "₹25,000",
       features: [
-        "Advanced laser periodontal therapy",
-        "Painless & bleeding-free",
-        "Faster healing (3-5 days)",
-        "Anti-bacterial treatment",
-        "3-month follow-up care"
+        "2-4 implants for stability",
+        "Removable denture system",
+        "Enhanced chewing ability",
+        "Prevents bone loss",
+        "Easy maintenance"
       ],
       popular: false
     }
@@ -67,15 +67,15 @@ export default function PromotionalPackages({ onBookAppointment }: PromotionalPa
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <span className="inline-block bg-purple-100 text-purple-600 px-6 py-2 rounded-full text-sm font-bold mb-4">
-            🎁 Special Promotional Packages
+            🎁 Exclusive Dental Implant Packages
           </span>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
-            Exclusive Dental Care Packages
+            Transforming Smiles with Dental Implants
           </h2>
           <p className="text-gray-600 md:text-lg max-w-3xl mx-auto">
-            Take advantage of our limited-time promotional packages designed to give you 
-            comprehensive dental care at exceptional value. All packages include our advanced 
-            technology and expert care from Dr. Shivani.
+            Choose from our comprehensive dental implant packages featuring Swiss implant systems, 
+            digital technology, and lifetime warranties. All packages include free consultation 
+            and digital scan worth ₹1,500.
           </p>
         </div>
 
@@ -133,7 +133,7 @@ export default function PromotionalPackages({ onBookAppointment }: PromotionalPa
 
         {/* Payment Options */}
         <div className="mt-12 bg-gradient-to-r from-primary-600 to-purple-600 rounded-2xl p-8 text-white text-center">
-          <h3 className="text-2xl md:text-3xl font-bold mb-4">Flexible Payment Options Available</h3>
+          <h3 className="text-2xl md:text-3xl font-bold mb-4">Dental Implant Financing Available</h3>
           <div className="grid md:grid-cols-3 gap-6 mt-8">
             <div className="flex items-center justify-center gap-3">
               <div className="bg-white/20 p-3 rounded-full">
@@ -142,8 +142,8 @@ export default function PromotionalPackages({ onBookAppointment }: PromotionalPa
                 </svg>
               </div>
               <div>
-                <h4 className="font-bold">All Payment Methods</h4>
-                <p className="text-sm opacity-90">Cash, Cards, UPI</p>
+                <h4 className="font-bold">3-Month EMI Available</h4>
+                <p className="text-sm opacity-90">No-cost financing</p>
               </div>
             </div>
             
@@ -166,8 +166,8 @@ export default function PromotionalPackages({ onBookAppointment }: PromotionalPa
                 </svg>
               </div>
               <div>
-                <h4 className="font-bold">EMI Available</h4>
-                <p className="text-sm opacity-90">Via SAVEin App</p>
+          
+                <p className="text-sm opacity-90">Save more upfront</p>
               </div>
             </div>
           </div>
@@ -189,7 +189,7 @@ export default function PromotionalPackages({ onBookAppointment }: PromotionalPa
             onClick={onBookAppointment}
             className="bg-purple-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-purple-600 transition-all hover:scale-105 inline-flex items-center gap-2 group"
           >
-            Book Free Consultation
+            Book Implant Consultation + Free Digital Scan
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </button>
         </div>

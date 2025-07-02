@@ -8,8 +8,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
   return (
     <section className="p-4 md:p-8 lg:p-12 max-w-7xl mx-auto">
       <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-6 leading-tight">
-        Transform Your Smile with<br />
-        <span className="text-primary-600">Advanced Dental Technology</span>
+        Missing Teeth or Loose Dentures?<br />
+        <span className="text-primary-600">The Best Solution - Dental Implants!</span>
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
@@ -31,11 +31,11 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
           
           <div className="relative">
             <span className="inline-block bg-yellow-400 text-primary-900 px-4 py-1 rounded-full text-sm font-bold mb-4 animate-pulse">
-              Advance Technology Available
+              🎁 Free Consultation + Digital Scan Worth ₹1500
             </span>
             
             <h2 className="text-2xl md:text-3xl font-bold mb-2">
-              Complete Dental Solutions
+              Dental Implant Specialists
             </h2>
             
             <div className="bg-primary-500 bg-opacity-50 p-4 rounded-lg mb-4">
@@ -48,15 +48,19 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
             <ul className="text-left mb-4 space-y-2">
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
-                <span className="text-sm">Free Consultation + Digital Scan</span>
+                <span className="text-sm">Lifetime warranty on implants</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
-                <span className="text-sm">EMI Options via SAVEin App</span>
+                <span className="text-sm">Swiss implant system with Digital implantology</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
-                <span className="text-sm">Latest Laser Technology</span>
+                <span className="text-sm">3-Month EMI financing available</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-yellow-300">✓</span>
+                <span className="text-sm">10% discount on full treatment payment</span>
               </li>
             </ul>
 
@@ -64,8 +68,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
               onClick={onBookAppointment}
               className="bg-purple-500 text-white px-8 py-4 rounded-xl text-xl font-bold shadow-lg hover:bg-purple-600 transition-all hover:scale-105 w-full md:w-auto group"
             >
-              Book Now & Save
-              <span className="block text-sm text-purple-200 group-hover:text-white transition-colors">Flexible Appointments</span>
+              Book Implant Consultation
+              <span className="block text-sm text-purple-200 group-hover:text-white transition-colors">Free Digital Scan Included</span>
             </button>
           </div>
         </div>
@@ -73,13 +77,13 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
 
       <div className="flex flex-col gap-3 mb-8 md:flex-row md:justify-center">
         <button onClick={onBookAppointment} className="bg-purple-500 text-white py-4 px-8 rounded-lg font-bold text-lg hover:bg-purple-600 transition-colors md:min-w-[240px]">
-          📞 Book Free Consultation + Digital Scan
+          📞 Book Implant Consultation + Free Digital Scan
         </button>
         <a 
           href="tel:+918108404057" 
           className="bg-primary-600 text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-primary-900 transition-colors md:min-w-[240px]"
         >
-          CALL NOW ☏
+          CALL NOW ☏ Implant Expert
         </a>
       </div>
 
@@ -87,9 +91,9 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       <div className="bg-gradient-to-br from-primary-50 to-white p-6 md:p-8 rounded-2xl shadow-lg md:max-w-4xl md:mx-auto">
         <div className="text-center mb-6">
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Why Choose <span className="text-primary-600">Meera Dental Clinic?</span>
+            Why Choose <span className="text-primary-600">Meera Dental Clinic</span> for Implants?
           </h3>
-          <p className="text-primary-600 md:text-lg">Experience Excellence with Advanced Technology</p>
+          <p className="text-primary-600 md:text-lg">Leading Implant Specialists in Navi Mumbai</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -103,8 +107,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Advanced Technology</h4>
-                  <p className="text-gray-600">Laser dentistry, digital scanners & latest equipment</p>
+                  <h4 className="font-bold text-gray-900">Digital Implantology</h4>
+                  <p className="text-gray-600">3D CBCT scanning, computer-guided implant surgery</p>
                 </div>
               </div>
             </div>
@@ -117,8 +121,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Flexible Appointments</h4>
-                  <p className="text-gray-600">Convenient timing to fit your busy schedule</p>
+                  <h4 className="font-bold text-gray-900">Swiss Implant System</h4>
+                  <p className="text-gray-600">Premium quality implants with lifetime warranty</p>
                 </div>
               </div>
             </div>
@@ -131,8 +135,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Flexible Payments</h4>
-                  <p className="text-gray-600">All payment methods, insurance & SAVEin EMI options</p>
+                  <h4 className="font-bold text-gray-900">Implant Financing</h4>
+                  <p className="text-gray-600">3-month EMI, 10% full payment discount available</p>
                 </div>
               </div>
             </div>
@@ -148,8 +152,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Friendly Environment</h4>
-                  <p className="text-gray-600">Comfortable & welcoming atmosphere for all patients</p>
+                  <h4 className="font-bold text-gray-900">Painless Procedures</h4>
+                  <p className="text-gray-600">Advanced anesthesia & laser-assisted implant surgery</p>
                 </div>
               </div>
             </div>
@@ -162,8 +166,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Expert Care</h4>
-                  <p className="text-gray-600">Dr. Shivani's specialized expertise in implantology</p>
+                  <h4 className="font-bold text-gray-900">Implant Specialist</h4>
+                  <p className="text-gray-600">10+ years experience, 500+ successful implants placed</p>
                 </div>
               </div>
             </div>
@@ -176,8 +180,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Comprehensive Services</h4>
-                  <p className="text-gray-600">Complete dental care from implants to smile design</p>
+                  <h4 className="font-bold text-gray-900">All Implant Types</h4>
+                  <p className="text-gray-600">Single, multiple, All-on-4/6, implant-supported dentures</p>
                 </div>
               </div>
             </div>
@@ -185,17 +189,17 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         </div>
 
         <div className="text-center">
-          <button 
-            onClick={onBookAppointment} 
-            className="bg-purple-500 text-white py-4 px-8 rounded-xl font-bold text-lg hover:bg-purple-600 transition-all hover:scale-105 inline-flex items-center gap-2 group"
-          >
-            Schedule Your Visit
-            <span className="group-hover:translate-x-1 transition-transform">➤</span>
-          </button>
-          <div className="mt-3 space-y-1">
-            <p className="text-primary-600 font-bold">Book Now & Get Free Consultation + Digital Scan</p>
-            <p className="text-sm text-gray-500">Experience the Latest in Dental Technology</p>
-          </div>
+                      <button 
+              onClick={onBookAppointment} 
+              className="bg-purple-500 text-white py-4 px-8 rounded-xl font-bold text-lg hover:bg-purple-600 transition-all hover:scale-105 inline-flex items-center gap-2 group"
+            >
+              Book Your Implant Consultation
+              <span className="group-hover:translate-x-1 transition-transform">➤</span>
+            </button>
+            <div className="mt-3 space-y-1">
+              <p className="text-primary-600 font-bold">Free Consultation + Digital Scan Worth ₹1500</p>
+              <p className="text-sm text-gray-500">Get personalized implant treatment plan in Navi Mumbai</p>
+            </div>
         </div>
       </div>
     </section>

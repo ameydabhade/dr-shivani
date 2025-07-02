@@ -10,13 +10,13 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
           <span className="inline-block bg-primary-100 text-primary-400 px-6 py-2 rounded-full text-sm font-bold mb-4">
-            Expert Dental Specialist in Navi Mumbai
+            Leading Implant Specialist in Navi Mumbai
           </span>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
-            Meet Your Dental Care Specialist
+            Meet Our Chief Implantologist
           </h2>
           <p className="text-primary-400 md:text-lg">
-            Advanced Dental Solutions with Cutting-Edge Technology
+            Digital Implantology Expert with Swiss Implant System
           </p>
         </div>
 
@@ -41,11 +41,12 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
                 </div>
               </div>
               <div className="mt-8">
-                <p className="text-purple-600 font-semibold text-lg mb-2">Chief Dental Specialist</p>
+                <p className="text-purple-600 font-semibold text-lg mb-2">Founder & Chief Implantologist</p>
                 <div className="text-sm text-gray-600 mb-4">
                   <p className="font-medium">MDS, BDS</p>
                   <p className="font-medium">Fellowship in Oral Implantology</p>
                   <p className="font-medium">MSc in Facial Cosmetology</p>
+                  <p className="font-medium">Advanced Digital Implantology Training</p>
                 </div>
                 <div className="flex justify-center gap-4">
                   <div className="text-center">
@@ -53,12 +54,12 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
                     <div className="text-sm text-gray-600">Years Experience</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-primary-400">1000+</div>
-                    <div className="text-sm text-gray-600">Happy Patients</div>
+                    <div className="text-2xl font-bold text-primary-400">500+</div>
+                    <div className="text-sm text-gray-600">Implants Placed</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-primary-400">4.9★</div>
-                    <div className="text-sm text-gray-600">Rating</div>
+                    <div className="text-2xl font-bold text-primary-400">98%</div>
+                    <div className="text-sm text-gray-600">Success Rate</div>
                   </div>
                 </div>
               </div>
@@ -69,30 +70,31 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
               <div className="prose max-w-none">
                 <div className="space-y-4 text-gray-600 leading-relaxed mb-8">
                   <p className="text-lg">
-                    Dr. Shivani brings extensive expertise in advanced dental care with a focus on 
-                    implantology and facial cosmetology. With her MDS and BDS qualifications, along with 
-                    specialized fellowship training in Oral Implantology and MSc in Facial Cosmetology, 
-                    she provides comprehensive dental solutions using the latest technology.
+                    Dr. Shivani is the Founder & Chief Implantologist at Meera Dental Clinic with extensive 
+                    experience of 10+ years in advanced implantology. She has completed her MDS and BDS, 
+                    along with specialized Fellowship in Oral Implantology and MSc in Facial Cosmetology, 
+                    with advanced training in digital implantology techniques.
                   </p>
                   
                   <p className="text-lg">
-                    At Meera Dental Clinic, Dr. Shivani combines cutting-edge technology including 
-                    laser dentistry and digital intra-oral scanners with personalized care to ensure 
-                    optimal treatment outcomes in a friendly, comfortable environment.
+                    At her practice, she concentrates on all types of dental implants, digital dentistry, 
+                    and 3D implant planning. Her expertise in digital implantology and Swiss implant systems 
+                    ensures precision placement and optimal outcomes. She has successfully placed 500+ implants 
+                    with a 98% success rate using cutting-edge technology.
                   </p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6">
-                    <h3 className="text-xl font-bold text-primary-800 mb-4">Comprehensive Services</h3>
+                    <h3 className="text-xl font-bold text-primary-800 mb-4">Implant Specializations</h3>
                     <ul className="space-y-3">
                       {[
-                        "Dental Implants",
-                        "Full Mouth Rehabilitation",
-                        "Smile Design",
-                        "Aligners (Clear Orthodontics)",
-                        "Laser Dentistry",
-                        "Digital Intra Oral Scanner"
+                        "Single Dental Implants",
+                        "Multiple Implant Bridges",
+                        "All-on-4 / All-on-6 Systems",
+                        "Implant-Supported Dentures",
+                        "Immediate Implant Placement",
+                        "Computer-Guided Surgery"
                       ].map((item, index) => (
                         <li key={index} className="flex items-center gap-3">
                           <span className="bg-primary-200 p-1 rounded-full">
@@ -107,15 +109,15 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
                   </div>
 
                   <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6">
-                    <h3 className="text-xl font-bold text-purple-800 mb-4">Advanced Technology</h3>
+                    <h3 className="text-xl font-bold text-purple-800 mb-4">Digital Implantology</h3>
                     <ul className="space-y-3">
                       {[
-                        "Laser Technology",
-                        "Digital Intra Oral Scanner",
-                        "Latest Equipment",
-                        "Flexible Appointments",
-                        "Friendly Environment",
-                        "Premium Quality Materials"
+                        "3D CBCT Scanning",
+                        "Computer-Guided Surgery",
+                        "Digital Treatment Planning",
+                        "Swiss Implant Systems",
+                        "3D Printing Technology",
+                        "Lifetime Warranty"
                       ].map((item, index) => (
                         <li key={index} className="flex items-center gap-3">
                           <span className="bg-purple-200 p-1 rounded-full">

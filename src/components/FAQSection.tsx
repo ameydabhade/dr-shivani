@@ -8,36 +8,36 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "What makes Meera Dental Clinic different from other clinics in Navi Mumbai?",
-      answer: "Dr. Shivani combines 10+ years of specialized experience with state-of-the-art technology at our Seawoods West location. We're one of the few clinics in Navi Mumbai offering advanced laser dentistry, digital intra-oral scanning, and computer-guided implant surgery. Our unique approach includes personalized treatment planning, 0% EMI financing through SAVEin, and same-day consultations for emergency cases."
+      question: "What is the dental implant procedure like at Meera Dental Clinic?",
+      answer: "The procedure involves placing a titanium implant into the jawbone using our advanced digital implantology system. We use 3D CBCT scanning for precise planning, computer-guided surgery for accuracy, and premium Swiss implant systems. The process includes consultation with Dr. Shivani, implant placement under local anesthesia, a healing period (2-3 months), and finally attachment of a customized crown. Most procedures are completed painlessly with minimal discomfort."
     },
     {
-      question: "What are your treatment costs and pricing structure?",
-      answer: "Our transparent pricing includes: Single dental implants ₹25,000-40,000 (varies by brand - Hiossen, Nobel Biocare, Straumann), Root canal treatment ₹7,500-13,500, Zirconia crowns ₹12,000-18,000, Teeth cleaning & scaling ₹2,000-4,000, Wisdom tooth extraction ₹5,000-15,000. We offer free initial consultation, accept insurance, and provide 0% EMI options through SAVEin app."
+      question: "What are your dental implant costs and financing options?",
+      answer: "Single dental implants range from ₹28,000-45,000 depending on the implant system (Hiossen, Nobel Biocare, Straumann). All-on-4 packages start from ₹2,00,000 per arch. We offer 3-month no-cost EMI financing, 10% discount for full payment, lifetime warranty on implants, and accept all insurance plans. Free consultation + digital scan worth ₹1,500 is included with every implant consultation."
     },
     {
-      question: "What dental procedures and specializations do you offer?",
-      answer: "We provide comprehensive dental care: Advanced dental implants (single, multiple, All-on-4), laser-assisted gum treatment, digital smile designing, clear aligners & Invisalign, painless root canal therapy, cosmetic dentistry & veneers, pediatric dentistry, oral surgery & extractions, full mouth rehabilitation, and preventive dental care. Dr. Shivani specializes in oral implantology and facial cosmetology."
-    },
-    {
-      question: "What are your clinic timings and how do I book an appointment?",
-      answer: "We're open Monday to Saturday: 10:00 AM - 2:00 PM and 5:30 PM - 9:30 PM. Sunday closed. Located at Bhakti Avenue, Shop 10, Plot No 3B, Sector 46A, Seawoods West, Navi Mumbai - 400706. Book appointments via phone: 81084 04057 / 81084 04058, WhatsApp, or walk-in for emergencies. We also offer weekend emergency consultations."
-    },
-    {
-      question: "Do you accept insurance and what financing options are available?",
-      answer: "Yes, we accept most dental insurance plans and all major payment methods (cash, cards, UPI, net banking). For expensive treatments like implants and full mouth rehabilitation, we partner with SAVEin fintech to offer 0% EMI options with minimal documentation. Treatment costs can be divided into 3-24 month installments, making quality dental care affordable for everyone."
-    },
-    {
-      question: "Is dental treatment safe and what precautions do you take?",
-      answer: "Absolutely! We follow strict sterilization protocols with autoclave sterilization, disposable instruments where applicable, and maintain international hygiene standards. Dr. Shivani uses advanced laser technology for minimally invasive procedures, digital X-rays for reduced radiation, and computer-guided surgery for precise implant placement. All treatments are painless with modern anesthesia techniques."
+      question: "Am I a suitable candidate for dental implants?",
+      answer: "Dr. Shivani will assess your overall health, bone density, and oral hygiene through comprehensive examination including 3D CBCT scanning. Most adults with good general health are suitable candidates. Factors we consider include adequate bone volume, healthy gums, non-smoking status, and realistic expectations. Even patients with bone loss can often receive implants with bone grafting procedures."
     },
     {
       question: "How long do dental implants last and what is the success rate?",
-      answer: "Dental implants have a 95-98% success rate when placed by experienced specialists like Dr. Shivani. With proper care, implants can last 20-25 years or even a lifetime. We use premium brands like Nobel Biocare and Straumann, provide detailed post-operative care instructions, and offer regular follow-up visits. Most patients return to normal eating within 2-3 months after implant placement."
+      answer: "Our dental implants have a 95-98% success rate using premium Swiss implant systems. With proper care, implants can last 20-25 years or even a lifetime. We provide lifetime warranty on implant fixtures, detailed post-operative care instructions, and regular follow-up visits. Most patients return to normal eating within 2-3 months after implant placement."
     },
     {
-      question: "Do you provide emergency dental services?",
-      answer: "Yes, we handle dental emergencies including severe toothache, broken teeth, lost fillings, swollen gums, and trauma cases. Emergency consultations are available during working hours and we try to accommodate urgent cases on weekends. For after-hours emergencies, you can WhatsApp us at 81084 04057 and we'll guide you on immediate pain relief until you can visit the clinic."
+      question: "What types of dental implants do you offer?",
+      answer: "We provide all types of dental implants: Single tooth implants, Multiple implant bridges, All-on-4/All-on-6 full arch restorations, and Implant-supported dentures. We use premium brands like Nobel Biocare, Straumann, and Hiossen with digital implantology for precise placement. Each treatment is customized based on your specific needs and bone condition."
+    },
+    {
+      question: "Are there any risks or complications with dental implants?",
+      answer: "Dental implant surgery is very safe with minimal risks when performed by experienced specialists like Dr. Shivani. Potential risks include infection, implant failure, or nerve damage, but these are rare (less than 2%). We use computer-guided surgery, maintain strict sterilization protocols, and provide detailed post-operative care to minimize any complications."
+    },
+    {
+      question: "What is the expected recovery time and aftercare for implants?",
+      answer: "Initial recovery takes 24-48 hours with minimal discomfort managed by prescribed medications. Complete osseointegration (implant fusing with bone) takes 2-3 months. During this time, maintain good oral hygiene, follow a soft diet initially, avoid smoking, and attend follow-up appointments. We provide detailed aftercare instructions and 24/7 support during recovery."
+    },
+    {
+      question: "Do you use advanced technology for dental implants?",
+      answer: "Yes! We use cutting-edge digital implantology including 3D CBCT scanning for precise treatment planning, computer-guided surgery for accurate implant placement, digital intra-oral scanning for perfect crown fit, and premium Swiss implant systems. This advanced technology ensures better outcomes, faster healing, and minimal discomfort compared to traditional methods."
     }
   ];
 
@@ -50,10 +50,10 @@ export default function FAQSection() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
-            Frequently Asked Questions
+            Frequently Asked Questions about Dental Implants
           </h2>
           <p className="text-primary-600 md:text-lg">
-            Get answers to common questions about our dental services
+            Get answers to common questions about dental implant procedure and treatment
           </p>
         </div>
 

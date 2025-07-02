@@ -1,49 +1,49 @@
 import Image from 'next/image';
 
 export default function ImplantTypes() {
-  const servicesData = [
+  const implantTypes = [
     {
-      title: "Dental Implants",
+      title: "Single Implants",
       image: "/images/implant/single.png",
-      description: "Premium dental implants for natural-looking, long-lasting tooth replacement:",
+      description: "A Single dental implant crown is your ideal solution. It will:",
       benefits: [
-        "Single tooth implants from ₹25,000",
-        "Multiple teeth implants available", 
-        "Full mouth rehabilitation",
-        "Latest implant technology"
+        "Look and function just like a natural tooth",
+        "Restore your natural chewing ability",
+        "Preserve the underlying bone",
+        "Save your money in the long run"
       ]
     },
     {
-      title: "Smile Design", 
+      title: "Multiple Implants", 
       image: "/images/implant/Multiple.png",
-      description: "Transform your smile with advanced cosmetic dentistry techniques:",
+      description: "A Multi-implant bridge. It is ideal for filling medium-sized gaps in your smile:",
       benefits: [
-        "Digital smile planning",
-        "Zirconia crowns starting ₹8,000",
-        "Aesthetic restoration", 
-        "Customized treatment plans"
+        "Exceptional Strength",
+        "A Permanent solution",
+        "Bone Preservation", 
+        "A life long replacement for your natural teeth"
       ]
     },
     {
-      title: "Aligners & Orthodontics",
+      title: "Implant-Supported Dentures",
       image: "/images/implant/supported.png", 
-      description: "Straighten your teeth with modern clear aligner technology:",
+      description: "Offer a stable alternative to regular dentures:",
       benefits: [
-        "Clear, removable aligners",
-        "Comfortable treatment",
-        "Digital treatment planning",
-        "Flexible appointment scheduling"
+        "Snap into place over 2-4 implants",
+        "Help prevent bone loss",
+        "Vastly improve your chewing and confidence",
+        "More stable than traditional dentures"
       ]
     },
     {
-      title: "Laser Dentistry",
+      title: "All-on-4 / All-on-6",
       image: "/images/implant/all_in.png",
-      description: "Advanced laser technology for precise, painless dental treatments:",
+      description: "All-on-4 & All-on-6 Dental Implants provide extra stability and support:",
       benefits: [
-        "Minimally invasive procedures",
-        "Faster healing time", 
-        "Reduced discomfort",
-        "Latest laser equipment"
+        "Resistant to wear and stains",
+        "A permanent solution that does not need removal",
+        "Custom-designed to attach securely to 4-6 implants per arch",
+        "It looks natural and strong enough to eat hard food"
       ]
     }
   ];
@@ -52,16 +52,15 @@ export default function ImplantTypes() {
     <section className="bg-primary-600 text-white p-4 md:p-8 lg:p-12 pb-16">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-4xl font-bold text-center text-purple-300 mb-4">
-          Comprehensive Dental Care at <em>Meera Dental Clinic</em>
+          When it comes to Dental Implants, choose <em>Meera Dental Clinic</em>
         </h2>
         <p className="text-center text-primary-100 mb-8 md:text-lg max-w-3xl mx-auto">
-          At Meera Dental Clinic, Dr. Shivani offers comprehensive dental solutions using advanced 
-          technology including laser dentistry, digital intra-oral scanners, and latest equipment 
-          in a friendly, comfortable environment.
+          At Meera Dental Clinic, we specialize in providing all types of dental implants to help you 
+          achieve a beautiful and functional smile using the latest procedures and technology.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {servicesData.map((service, index) => (
+          {implantTypes.map((service, index) => (
             <div key={index} className="bg-white text-gray-800 p-4 md:p-6 rounded-lg">
               <div className="bg-primary-50/80 rounded-lg mb-4 relative aspect-[4/3] w-full">
                 <Image 
@@ -86,20 +85,20 @@ export default function ImplantTypes() {
           ))}
         </div>
 
-        {/* Additional Services Section */}
+        {/* Implant Features Section */}
         <div className="mt-12 bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8">
           <h3 className="text-2xl md:text-3xl font-bold text-center text-yellow-300 mb-6">
-            Complete Dental Solutions
+            Why Choose Our Dental Implants?
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="text-center">
               <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                 <svg className="w-8 h-8 text-primary-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                 </svg>
               </div>
-              <h4 className="font-bold text-lg mb-2">Full Mouth Rehabilitation</h4>
-              <p className="text-primary-100 text-sm">Complete oral health restoration</p>
+              <h4 className="font-bold text-lg mb-2">Lifetime Warranty</h4>
+              <p className="text-primary-100 text-sm">Swiss implant system with lifetime replacement warranty</p>
             </div>
             
             <div className="text-center">
@@ -108,8 +107,8 @@ export default function ImplantTypes() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                 </svg>
               </div>
-              <h4 className="font-bold text-lg mb-2">Digital Intra Oral Scanner</h4>
-              <p className="text-primary-100 text-sm">Precise 3D digital impressions</p>
+              <h4 className="font-bold text-lg mb-2">Digital Implantology</h4>
+              <p className="text-primary-100 text-sm">3D CBCT scanning & computer-guided implant surgery</p>
             </div>
             
             <div className="text-center">
@@ -118,8 +117,8 @@ export default function ImplantTypes() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
               </div>
-              <h4 className="font-bold text-lg mb-2">Flexible Payment Options</h4>
-              <p className="text-primary-100 text-sm">Insurance & SAVEin EMI available</p>
+              <h4 className="font-bold text-lg mb-2">3-Month EMI Available</h4>
+              <p className="text-primary-100 text-sm">No-cost financing</p>
             </div>
           </div>
         </div>
