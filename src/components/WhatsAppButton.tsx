@@ -1,7 +1,5 @@
 'use client';
 
-import { MessageCircle } from 'lucide-react';
-
 export default function WhatsAppButton() {
   const phoneNumber = "+918108404057";
   const message = "Hello! I would like to book an appointment at Meera Dental Clinic with Dr. Shivani.";

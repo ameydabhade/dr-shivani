@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function GoogleReviews() {
   const reviews = [
     {
@@ -20,7 +18,7 @@ export default function GoogleReviews() {
     {
       name: "Vikram Joshi",
       rating: 5,
-      review: "Excellent service and advanced technology at Meera Dental Clinic. Dr. Shivani's expertise in implantology is remarkable. The laser dentistry was completely painless and healed much faster. EMI options through SAVEin app made it very affordable. 5 stars!"
+      review: "Excellent service and advanced technology at Meera Dental Clinic. Dr. Shivani&apos;s expertise in implantology is remarkable. The laser dentistry was completely painless and healed much faster. EMI options through SAVEin app made it very affordable. 5 stars!"
     },
     {
       name: "Sneha Reddy",
@@ -30,7 +28,7 @@ export default function GoogleReviews() {
     {
       name: "Amit Kumar",
       rating: 5,
-      review: "Dr. Shivani is highly skilled and uses the most advanced equipment. Got my aligners here and the results are amazing. The clinic is easily accessible in Navi Mumbai and the staff is very courteous. Best dental care experience I've ever had!"
+      review: "Dr. Shivani is highly skilled and uses the most advanced equipment. Got my aligners here and the results are amazing. The clinic is easily accessible in Navi Mumbai and the staff is very courteous. Best dental care experience I&apos;ve ever had!"
     }
   ];
 
@@ -66,7 +64,7 @@ export default function GoogleReviews() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 leading-relaxed">"{review.review}"</p>
+              <p className="text-gray-600 leading-relaxed">&quot;{review.review}&quot;</p>
             </div>
           ))}
         </div>

@@ -102,7 +102,7 @@ export default function ThankYou() {
               <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-xl font-bold">1</span>
               </div>
-              <h3 className="font-bold mb-2">We'll Call You</h3>
+              <h3 className="font-bold mb-2">We&apos;ll Call You</h3>
               <p className="text-sm text-primary-100">Our team will contact you within 24 hours to confirm your appointment</p>
             </div>
             <div>
