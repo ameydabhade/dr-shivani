@@ -48,7 +48,7 @@ export default function GoogleReviews() {
             What Our Patients Say
           </h2>
           <p className="text-gray-600 md:text-lg">
-            Real reviews from satisfied patients at Meera Dental Clinic
+            Reviews from satisfied patients at Meera Dental Clinic
           </p>
         </div>
 

@@ -13,7 +13,7 @@ export default function FAQSection() {
     },
     {
       question: "What are your dental implant costs and financing options?",
-      answer: "Single dental implants range from ₹28,000-45,000 depending on the implant system (Hiossen, Nobel Biocare, Straumann). All-on-4 packages start from ₹2,00,000 per arch. We offer 3-month no-cost EMI financing, 10% discount for full payment, lifetime warranty on implants, and accept all insurance plans. Free consultation + digital scan worth ₹1,500 is included with every implant consultation."
+      answer: "Single dental implants range from ₹28,000-45,000 depending on the implant system (Hiossen, Nobel Biocare, Straumann). All-on-4 packages start from ₹2,00,000 per arch. We offer 3-month no-cost EMI financing, lifetime warranty on implants, and accept all insurance plans. Free consultation + digital scan worth ₹1,500 is included with every implant consultation."
     },
     {
       question: "Am I a suitable candidate for dental implants?",

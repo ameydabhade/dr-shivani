@@ -60,7 +60,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
-                <span className="text-sm">10% discount on full treatment payment</span>
+                <span className="text-sm">Flexible payment options available</span>
               </li>
             </ul>
 
@@ -83,7 +83,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
           href="tel:+918108404057" 
           className="bg-primary-600 text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-primary-900 transition-colors md:min-w-[240px]"
         >
-          CALL NOW ☏ Implant Expert
+          CALL NOW 
         </a>
       </div>
 
@@ -136,7 +136,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900">Implant Financing</h4>
-                  <p className="text-gray-600">3-month EMI, 10% full payment discount available</p>
+                  <p className="text-gray-600">3-month EMI options available</p>
                 </div>
               </div>
             </div>

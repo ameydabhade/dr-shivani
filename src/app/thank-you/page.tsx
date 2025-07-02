@@ -1,6 +1,5 @@
 'use client';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function ThankYou() {
   return (
@@ -123,14 +122,14 @@ export default function ThankYou() {
           </div>
         </div>
 
-        {/* Back to Home */}
+        {/* Call Now CTA */}
         <div className="text-center mt-8">
-          <Link 
-            href="/" 
-            className="inline-flex items-center gap-2 bg-primary-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-primary-600 transition-all"
+          <a 
+            href="tel:+918108404057" 
+            className="inline-flex items-center gap-2 bg-primary-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-700 transition-all"
           >
-            ← Back to Home
-          </Link>
+            📞 CALL NOW
+          </a>
         </div>
       </div>
     </div>
