@@ -6,57 +6,57 @@ export default function PromotionalPackages({ onBookAppointment }: PromotionalPa
   const packages = [
     {
       title: "Complete Smile Makeover",
-      originalPrice: "₹45,000",
-      offerPrice: "₹35,000",
-      savings: "₹10,000",
+      originalPrice: "₹55,000",
+      offerPrice: "₹40,000",
+      savings: "₹15,000",
       features: [
-        "Full mouth evaluation",
-        "Smile design consultation",
-        "Zirconia crowns (up to 6 teeth)",
-        "Digital scanning included",
-        "Free follow-up visits"
+        "Digital smile design consultation",
+        "4-6 Zirconia/E-max crowns",
+        "3D intra-oral scanning",
+        "Professional teeth whitening",
+        "1-year warranty included"
       ],
       popular: true
     },
     {
-      title: "Implant Starter Package",
-      originalPrice: "₹30,000",
-      offerPrice: "₹25,000",
-      savings: "₹5,000",
-      features: [
-        "Single dental implant",
-        "Free consultation",
-        "Digital X-ray & planning",
-        "Premium implant material",
-        "6-month follow-up included"
-      ],
-      popular: false
-    },
-    {
-      title: "Family Dental Care",
-      originalPrice: "₹20,000",
-      offerPrice: "₹15,000",
-      savings: "₹5,000",
-      features: [
-        "Consultation for 4 family members",
-        "Complete oral health checkup",
-        "Cleaning & polishing",
-        "Digital X-rays if needed",
-        "Treatment planning"
-      ],
-      popular: false
-    },
-    {
-      title: "Advanced Laser Treatment",
-      originalPrice: "₹25,000",
-      offerPrice: "₹18,000",
+      title: "Premium Implant Package",
+      originalPrice: "₹35,000",
+      offerPrice: "₹28,000",
       savings: "₹7,000",
       features: [
-        "Laser gum treatment",
-        "Painless procedure",
-        "Faster healing time",
-        "Advanced laser technology",
-        "Post-treatment care"
+        "Single Hiossen/Nobel implant",
+        "CBCT 3D scan & planning",
+        "Zirconia crown included",
+        "6-month healing follow-up",
+        "Lifetime implant warranty"
+      ],
+      popular: false
+    },
+    {
+      title: "Family Wellness Plan",
+      originalPrice: "₹18,000",
+      offerPrice: "₹12,000",
+      savings: "₹6,000",
+      features: [
+        "4 family members covered",
+        "Complete dental checkup",
+        "Scaling & polishing each",
+        "Digital X-rays included",
+        "Priority appointment booking"
+      ],
+      popular: false
+    },
+    {
+      title: "Laser Gum Therapy",
+      originalPrice: "₹22,000",
+      offerPrice: "₹16,000",
+      savings: "₹6,000",
+      features: [
+        "Advanced laser periodontal therapy",
+        "Painless & bleeding-free",
+        "Faster healing (3-5 days)",
+        "Anti-bacterial treatment",
+        "3-month follow-up care"
       ],
       popular: false
     }

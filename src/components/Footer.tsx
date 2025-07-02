@@ -56,30 +56,6 @@ export default function Footer() {
             title="Meera Dental Clinic Location"
           ></iframe>
         </div>
-
-        {/* Services and Payment Info */}
-        <div className="mt-8 bg-gradient-to-r from-primary-50 to-purple-50 rounded-xl p-6">
-          <div className="text-center mb-4">
-            <h3 className="text-xl font-bold text-primary-600 mb-2">Our Services & Pricing</h3>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6 text-center">
-            <div className="bg-white rounded-lg p-4 shadow-sm">
-              <h4 className="font-bold text-primary-600 mb-2">Dental Implants</h4>
-              <p className="text-2xl font-bold text-primary-600">₹25,000</p>
-              <p className="text-sm text-gray-600">Per Implant</p>
-            </div>
-            <div className="bg-white rounded-lg p-4 shadow-sm">
-              <h4 className="font-bold text-primary-600 mb-2">Wisdom Teeth Removal</h4>
-              <p className="text-2xl font-bold text-primary-600">₹5,000 - ₹7,000</p>
-              <p className="text-sm text-gray-600">Lower Wisdom Teeth</p>
-            </div>
-            <div className="bg-white rounded-lg p-4 shadow-sm">
-              <h4 className="font-bold text-primary-600 mb-2">Zirconia Crown</h4>
-              <p className="text-2xl font-bold text-primary-600">Starting ₹8,000</p>
-              <p className="text-sm text-gray-600">Premium Quality</p>
-            </div>
-          </div>
-        </div>
       </div>
     </footer>
   );

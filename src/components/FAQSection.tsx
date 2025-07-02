@@ -8,28 +8,36 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "What makes Meera Dental Clinic different from other clinics?",
-      answer: "At Meera Dental Clinic, Dr. Shivani combines advanced technology with personalized care. Our clinic features cutting-edge equipment including laser dentistry and digital intra-oral scanners. Dr. Shivani's extensive qualifications (MDS, BDS, Fellowship in Oral Implantology, MSc in Facial Cosmetology) ensure expert care in a friendly, comfortable environment with flexible appointment scheduling."
+      question: "What makes Meera Dental Clinic different from other clinics in Navi Mumbai?",
+      answer: "Dr. Shivani combines 10+ years of specialized experience with state-of-the-art technology at our Seawoods West location. We're one of the few clinics in Navi Mumbai offering advanced laser dentistry, digital intra-oral scanning, and computer-guided implant surgery. Our unique approach includes personalized treatment planning, 0% EMI financing through SAVEin, and same-day consultations for emergency cases."
     },
     {
-      question: "What are your prices for dental implants and other services?",
-      answer: "We offer competitive pricing: Dental implants start at ₹25,000 per implant, wisdom teeth removal (lower) ranges from ₹5,000-₹7,000, and Zirconia crowns start from ₹8,000. We accept all payment methods including insurance and offer EMI options through the SAVEin application for your convenience."
+      question: "What are your treatment costs and pricing structure?",
+      answer: "Our transparent pricing includes: Single dental implants ₹25,000-40,000 (varies by brand - Hiossen, Nobel Biocare, Straumann), Root canal treatment ₹7,500-13,500, Zirconia crowns ₹12,000-18,000, Teeth cleaning & scaling ₹2,000-4,000, Wisdom tooth extraction ₹5,000-15,000. We offer free initial consultation, accept insurance, and provide 0% EMI options through SAVEin app."
     },
     {
-      question: "What services do you provide at Meera Dental Clinic?",
-      answer: "We provide comprehensive dental care including dental implants, full mouth rehabilitation, smile design, aligners (clear orthodontics), laser dentistry, and digital intra-oral scanning. Dr. Shivani specializes in implantology and facial cosmetology, ensuring expert care for all your dental needs."
+      question: "What dental procedures and specializations do you offer?",
+      answer: "We provide comprehensive dental care: Advanced dental implants (single, multiple, All-on-4), laser-assisted gum treatment, digital smile designing, clear aligners & Invisalign, painless root canal therapy, cosmetic dentistry & veneers, pediatric dentistry, oral surgery & extractions, full mouth rehabilitation, and preventive dental care. Dr. Shivani specializes in oral implantology and facial cosmetology."
     },
     {
-      question: "What are your working hours and location?",
-      answer: "We're open Monday to Saturday: Morning 10:00 AM - 2:00 PM and Evening 5:30 PM - 9:30 PM. Our clinic is located at Bhakti Avenue, Shop 10, Plot No 3B, Sector 46A, Seawoods West, Navi Mumbai - 400706. You can reach us at 81084 04057 or 81084 04058."
+      question: "What are your clinic timings and how do I book an appointment?",
+      answer: "We're open Monday to Saturday: 10:00 AM - 2:00 PM and 5:30 PM - 9:30 PM. Sunday closed. Located at Bhakti Avenue, Shop 10, Plot No 3B, Sector 46A, Seawoods West, Navi Mumbai - 400706. Book appointments via phone: 81084 04057 / 81084 04058, WhatsApp, or walk-in for emergencies. We also offer weekend emergency consultations."
     },
     {
-      question: "What payment options do you accept?",
-      answer: "We accept all major payment methods including cash, cards, UPI, and insurance. For extensive treatments, we offer flexible EMI options through the SAVEin application with minimal documentation. This makes quality dental care accessible and affordable for everyone."
+      question: "Do you accept insurance and what financing options are available?",
+      answer: "Yes, we accept most dental insurance plans and all major payment methods (cash, cards, UPI, net banking). For expensive treatments like implants and full mouth rehabilitation, we partner with SAVEin fintech to offer 0% EMI options with minimal documentation. Treatment costs can be divided into 3-24 month installments, making quality dental care affordable for everyone."
     },
     {
-      question: "What advanced technology do you use?",
-      answer: "We pride ourselves on using the latest dental technology including laser dentistry for minimally invasive procedures, digital intra-oral scanners for precise 3D impressions, and state-of-the-art equipment. This advanced technology ensures more comfortable treatments, faster healing, and better outcomes for our patients."
+      question: "Is dental treatment safe and what precautions do you take?",
+      answer: "Absolutely! We follow strict sterilization protocols with autoclave sterilization, disposable instruments where applicable, and maintain international hygiene standards. Dr. Shivani uses advanced laser technology for minimally invasive procedures, digital X-rays for reduced radiation, and computer-guided surgery for precise implant placement. All treatments are painless with modern anesthesia techniques."
+    },
+    {
+      question: "How long do dental implants last and what is the success rate?",
+      answer: "Dental implants have a 95-98% success rate when placed by experienced specialists like Dr. Shivani. With proper care, implants can last 20-25 years or even a lifetime. We use premium brands like Nobel Biocare and Straumann, provide detailed post-operative care instructions, and offer regular follow-up visits. Most patients return to normal eating within 2-3 months after implant placement."
+    },
+    {
+      question: "Do you provide emergency dental services?",
+      answer: "Yes, we handle dental emergencies including severe toothache, broken teeth, lost fillings, swollen gums, and trauma cases. Emergency consultations are available during working hours and we try to accommodate urgent cases on weekends. For after-hours emergencies, you can WhatsApp us at 81084 04057 and we'll guide you on immediate pain relief until you can visit the clinic."
     }
   ];
 
