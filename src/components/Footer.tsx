@@ -43,17 +43,17 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Google Maps Embed - Updated for new address */}
+        {/* Google Maps Embed - Meera Dental Clinic */}
         <div className="mt-6 bg-gray-200 rounded-lg overflow-hidden h-[300px] md:h-[400px]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.8274934532625!2d73.01947607516894!3d19.075334182142744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c1c74fef7a77%3A0x4d8d4d5d3c8b8c8b!2sSector%2046A%2C%20Seawoods%20West%2C%20Navi%20Mumbai%2C%20Maharashtra%20400706!5e0!3m2!1sen!2sin!4v1748290801057!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.1641493899497!2d73.0135234!3d19.012487099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3f4349956c3%3A0xd84203cdf35e4926!2sMEERA%20DENTAL%20CLINIC%20%7C%20Dr%20Shivani%20Sherkhane!5e0!3m2!1sen!2sin!4v1751478688035!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Meera Dental Clinic Location"
+            title="Meera Dental Clinic - Dr Shivani Sherkhane Location"
           ></iframe>
         </div>
       </div>
