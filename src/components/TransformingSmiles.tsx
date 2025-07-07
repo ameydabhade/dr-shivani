@@ -88,15 +88,23 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
           
           <div className="max-w-md mx-auto">
             <div className="bg-white rounded-2xl p-6 shadow-lg">
-              <video 
-                controls 
-                className="w-full h-auto rounded-lg"
-                style={{ maxHeight: '700px', aspectRatio: '9/16' }}
-                poster="/images/thumbnail.png"
-              >
-                <source src="/images/transformations/1.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <script src="https://fast.wistia.com/player.js" async></script>
+              <script src="https://fast.wistia.com/embed/wt50q3n5k4.js" async type="module"></script>
+              <style dangerouslySetInnerHTML={{
+                __html: `
+                  wistia-player[media-id='wt50q3n5k4']:not(:defined) { 
+                    background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/wt50q3n5k4/swatch'); 
+                    display: block; 
+                    filter: blur(5px); 
+                    padding-top:177.78%; 
+                  }
+                `
+              }} />
+              <div 
+                dangerouslySetInnerHTML={{
+                  __html: `<wistia-player media-id="wt50q3n5k4" aspect="0.5625" class="w-full h-auto rounded-lg"></wistia-player>`
+                }}
+              />
             </div>
           </div>
         </div>
